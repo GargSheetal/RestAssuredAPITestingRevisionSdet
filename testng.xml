@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RequestSuite">
+  <test thread-count="2" name="FunctionalTests">
+    <classes>
+      <class name="in.reqres.apiTesting.TC001_reqres_GETSingleUser"/>
+      <class name="in.reqres.apiTesting.TC002_reqres_POSTNewUser"/>
+      <class name="in.reqres.apiTesting.TC005_reqres_GET_ValidateResponseBody"/>
+      <class name="in.reqres.apiTesting.TC003_reqres_GETAllUsers"/>
+      <class name="in.reqres.apiTesting.TC004_reqres_UPDATEUser"/>
+      <class name="in.reqres.apiTesting.TC006_GET_Authorization"/>
+      <class name="dataDrivenTesting.TC007_StudentsAPI_DataDrivenTesting"/>
+      <class name="dataDrivenTesting.TC008_StuentsAPI_DataProviderDDT"/>
+      
+    </classes>
+  </test> <!-- FunctionalTests -->
+</suite> <!-- RequestSuite -->
